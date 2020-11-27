@@ -19,7 +19,11 @@ $white: hsl(0, 0%, 100%);
 /*------------------------- Typography ------------------------ */
 
 //Body Copy
-$fontBody: 14px;
+$font-body: 14px;
 
 //Headeings, Call-to-actions, Header Navigation
-//$fontFamilyH: Raleway;
+$font-family-header: 'Raleway', sans-serif;
+
+//Body
+$font-family: 'Open Sans', sans-serif;
+
