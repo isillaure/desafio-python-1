@@ -1,11 +1,11 @@
 /*Mobile*/ 
-
 .section-4 {
+    background-color: $dbmain;
     display: flex;
     flex-wrap: wrap;
     align-content: space-between;
     padding-bottom: 27em;
-    padding-top: 15em;
+    padding-top: 8em;
 
     .test-quotes {
         width: 3em;
@@ -243,7 +243,6 @@ input[type= "submit"]:hover {
             position: relative;
             left: 125px;
             top: 15px;
-            z-index: -1;
         }
         .section-4-container {
             display: flex;
@@ -256,6 +255,7 @@ input[type= "submit"]:hover {
             .testimonies {
                 width: 30%;
                 font-size: 0.85em;
+                z-index: 1;
             }
         }
     }
