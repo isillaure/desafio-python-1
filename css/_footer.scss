@@ -152,6 +152,7 @@ input[type= "submit"]:hover {
         padding-top: 8em;
         margin-bottom: 5em;
         size: 1000em;
+        height: auto;
     }
 }
 
@@ -162,7 +163,6 @@ input[type= "submit"]:hover {
     align-items: flex-start;
     font-weight: 100;
     padding-bottom: 5em;
-
 }
 
 .contact-footer-1 ul {
@@ -171,13 +171,13 @@ input[type= "submit"]:hover {
 
 .contact-footer-1 ul li {
     display: flex;
-    margin: 0 0 1.5em 0;
+    margin: 0 1em 1.5em 0;
     font-weight: 50;
     line-height: 150%;
 
     i {
         margin-right: 1.3em;
-        font-size: 1em;
+        font-size: 1.2em;
         padding-top: 0.3em;
     }
 }
@@ -190,8 +190,7 @@ input[type= "submit"]:hover {
     margin: 0 0 1.5em 0;
     font-weight: 50;
     line-height: 150%;
-    font-size: 0.8em;
-
+    font-size: 0.9em;
 
     i {
         margin-right: 1.3em;
@@ -201,7 +200,8 @@ input[type= "submit"]:hover {
 }
 
 .contact-links-2 {
-    font-size: 0.8em;
+    font-size: 0.9em;
+    padding-bottom: 5em;
 }
 
 .about-footer {
@@ -310,6 +310,7 @@ input[type= "submit"]:hover {
 
             img {
                 height: 7em;
+                width: auto;
             }
         }
     }
@@ -336,15 +337,22 @@ input[type= "submit"]:hover {
         padding-left: 4em;
     }
     .about-footer {
+        position:  relative;
+        top: -10px;
         padding-left: 15em;
         font-size: 0.7em;
+        
     }
     .policies-footer {
+        position:  relative;
+        top: -10px;
         padding-left: 6em;
         font-size: 0.7em;
     }
 
     .icons {
+        position:  relative;
+        top: -10px;
         padding-left: 3.5em;
         font-size: 2em;
     }
